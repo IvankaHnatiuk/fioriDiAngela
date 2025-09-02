@@ -1,36 +1,70 @@
 footer {
-  background-color: #222;
-  color: #eee;
-  padding: 2rem;
-  font-family: Arial, sans-serif;
+  background: #7ba77b;
+  color: white;
+  padding: 10px 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .footer-columns {
   display: flex;
-  gap: 2rem;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1100px;
+  margin: auto;
+  gap: 30px;
 }
 
 .footer-column {
-  flex: 1 1 200px; /* flessibile con larghezza minima */
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-logo img.logo {
+  max-width: 140px;
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  line-height: 1.4;
 }
 
 .footer-column h4 {
-  margin-bottom: 1rem;
-  font-size: 1.25rem;
-  border-bottom: 2px solid #555;
-  padding-bottom: 0.5rem;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: #111112;
+  text-align: center; 
 }
 
 .footer-column p {
-  margin: 0.25rem 0;
-  line-height: 1.5;
+  margin: 5px 0;
+  line-height: 1.4;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #0f61a4;
+  font-size: 40px; 
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #8e5f89; /* arancio elegante in hover */
+  transform: scale(1.2);
 }
 
 .footer-copyright {
-  margin-top: 2rem;
   text-align: center;
-  font-size: 0.9rem;
-  color: #aaa;
+  margin-top: 25px;
+  font-size: 14px;
+  color: #0d0d0d;
+  border-top: 1px solid #ddd;
+  padding-top: 12px;
 }

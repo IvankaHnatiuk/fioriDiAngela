@@ -1,12 +1,12 @@
 import "./ImageBlock.css";
-import blockImage from "../../assets/images/image_block.jpg"; // картинка в папці assets
+import blockImage from '../../assets/images/Image6.jpg'
 
 export default function ImageBlock() {
   return (
     <section className="image-block">
       <img
         src={blockImage}
-        alt="La nostra azienda"
+        alt="Decorazione floreali giganti fatte a mano"
         className="responsive-image"
       />
     </section>

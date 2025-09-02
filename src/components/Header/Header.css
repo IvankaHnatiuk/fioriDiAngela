@@ -1,28 +1,58 @@
 .main-header {
-  position: sticky;
-  top: 0;
-  z-index: 50;
-  background-color: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(8px);
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
+  justify-content: space-between;
+  padding: 15px 2rem;
+  background-color: #f8f1e4; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  height: 60px;
+  border-radius: 12px; 
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.header-logo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(211, 84, 0, 0.5); 
+}
+
+.header-nav {
+  display: flex;
+  gap: 25px;
 }
 
 .header-nav a {
-  margin-right: 20px;
   text-decoration: none;
-  color: #333;
-  font-weight: 600;
+  color: #141d25; 
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.header-nav a:hover {
+  color: #ce518a; 
 }
 
 .mobile-menu-button {
-  display: none;
-  background: none;
+  display: none; 
+  background-color: #2a4d69;
+  color: white;
   border: none;
-  font-size: 1.2rem;
+  padding: 8px 12px;
+  border-radius: 8px;
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mobile-menu-button:hover {
+  background-color: #d35400;
 }
 
 @media (max-width: 768px) {

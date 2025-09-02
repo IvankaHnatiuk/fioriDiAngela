@@ -1,7 +1,7 @@
 import './Hero.css';
-import heroImg from '../../assets/images/hero_image.jpg'; // шлях відносно файлу
+import heroImg from '../../assets/images/HeroImg.jpg';
 
-export default function Hero({ title = "Benvenuti nella nostra azienda", subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }) {
+export default function Hero({ title = "I FIORI GIGANTI ", subtitle = "TRASFORMANO EVENTI ESCLUSIVI IN SCENOGRAFIE INDIMENTICABILI" }) {
 
     return (
         <section className="hero-section">

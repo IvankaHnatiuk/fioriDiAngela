@@ -20,40 +20,51 @@ function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
+
+    // simulazione invio dati
     console.log("Dati inviati:", formData);
-    // qui potresti aggiungere la logica per l'invio dei dati
+
+    // reset del form
+    setFormData({ name: "", email: "", message: "" });
+
     setIsSubmitting(false);
   };
 
   return (
     <section id="contact">
-    <form onSubmit={handleSubmit}>
-      <div className="form-row">
-        <input
-          type="text"
-          name="name"
-          placeholder="Nome"
-          value={formData.name}
+      <h2>Contattaci</h2>
+      <p>Compila il modulo qui sotto e ti risponderemo al più presto.</p>
+
+      <form onSubmit={handleSubmit}>
+        <div className="form-row">
+          <input
+            type="text"
+            name="name"
+            placeholder="Il tuo nome"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="La tua email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <textarea
+          name="message"
+          placeholder="Scrivi qui il tuo messaggio..."
+          value={formData.message}
           onChange={handleChange}
+          required
         />
-        <input
-          type="email"
-          name="email"
-          placeholder="Email"
-          value={formData.email}
-          onChange={handleChange}
-        />
-      </div>
-      <textarea
-        name="message"
-        placeholder="Messaggio"
-        value={formData.message}
-        onChange={handleChange}
-      />
-      <button type="submit" disabled={isSubmitting}>
-        {isSubmitting ? "Invio..." : "Invia"}
-      </button>
-    </form>
+        <button type="submit" disabled={isSubmitting}>
+          {isSubmitting ? "Invio in corso..." : "Invia messaggio"}
+        </button>
+      </form>
     </section>
   );
 }

@@ -1,17 +1,39 @@
 .text-block {
   text-align: center;
-  padding: 4rem 1.5rem;
-  max-width: 768px;
+  padding: 2.5rem 1.5rem; 
+  max-width: 800px;
   margin: 0 auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: linear-gradient(135deg, #fafafa, #fff);
+  border-radius: 1rem;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
 }
 
 .text-block-title {
-  font-size: 2rem;
+  font-size: 2.4rem;
   margin-bottom: 1rem;
+  font-weight: 700;
+  color: #2c2c2c;
+  letter-spacing: 0.5px;
+  position: relative;
+  display: inline-block;
+}
+
+.text-block-title::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 2px;
+  background: linear-gradient(90deg, #e91e63, #ff9800);
+  margin: 0.4rem auto 0;
+  border-radius: 2px;
 }
 
 .text-block-text {
-  font-size: 1.125rem;
-  line-height: 1.6;
+  font-size: 1.2rem;
+  line-height: 1.8;
   color: #444;
+  font-weight: 400;
+  max-width: 650px;
+  margin: 0 auto;
 }

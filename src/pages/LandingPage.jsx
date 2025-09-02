@@ -3,9 +3,9 @@ import Hero from '../components/Hero/Hero';
 import TextBlock from '../components/TextBlock/TextBlock';
 import ImageBlock from '../components/ImageBlock/ImageBlock';
 import ImageTextBlock from '../components/ImageTextBlock/ImageTextBlock';
-import CTABanner from '../components/CTABanner/CTABanner';
 import ContactForm from'../components/ContactForm/ContactForm';
 import Footer from '../components/Footer/Footer';
+import Galleria from '../components/Galleria/Galleria';
 
 const LandingPage = () => {
   return (
@@ -16,7 +16,7 @@ const LandingPage = () => {
         <TextBlock id="about"  />
         <ImageBlock />
         <ImageTextBlock id="gallery"  />
-        <CTABanner />
+        <Galleria />
         <ContactForm id="contact" />
       </main>
       <Footer />

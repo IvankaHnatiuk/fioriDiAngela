@@ -1,6 +1,6 @@
 .hero-section {
   position: relative;
-  min-height: 60vh;
+  min-height: 65vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,7 +8,6 @@
   overflow: hidden;
 }
 
-/* фонова картинка */
 .hero-bg {
   position: absolute;
   top: 0;
@@ -17,34 +16,37 @@
   height: 100%;
   object-fit: cover;
   z-index: -1;
-  filter: brightness(0.6); /* затемнює фон для кращої читабельності тексту */
+  filter: brightness(0.6); 
 }
 
-/* контент поверху */
+
 .hero-content {
   max-width: 800px;
-  color: #ffffff; /* підходить до затемненого фонового зображення */
+  color: #ffffff; 
   padding: 2rem 1rem;
 }
 
 .hero-title {
-  font-size: 2.25rem;
-  margin: 0 0 0.75rem 0;
-  line-height: 1.05;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.75rem;  
+  margin: 0 0 10rem 0;
+  line-height: 1.1;
 }
 
 .hero-subtitle {
-  font-size: 1.125rem;
-  margin-bottom: 1.25rem;
-  color: rgba(255,255,255,0.9);
+  font-family: "Georgia", "Times New Roman", serif; 
+  font-size: 1.50rem; 
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.943);
+  line-height: 1.6;
+  margin-top: -8rem; 
 }
 
-/* адаптивність */
 @media (min-width: 768px) {
   .hero-title {
-    font-size: 3rem;
+    font-size: 2.25rem; 
   }
   .hero-subtitle {
-    font-size: 1.25rem;
+    font-size: 1.125rem; 
   }
 }
