@@ -25,7 +25,7 @@ function Footer() {
           <h4>Seguimi</h4>
           <div className="social-icons">
             <a
-              href="https://www.instagram.com/ifioridiangela.roma"
+              href="https://www.instagram.com/ifloridiangela.roma"
               target="_blank"
               rel="noreferrer"
             >
