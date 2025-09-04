@@ -42,6 +42,27 @@
   margin-top: -8rem; 
 }
 
+.hero-title, 
+.hero-subtitle {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 1.5s ease forwards;
+}
+
+.hero-subtitle {
+  animation-delay: 0.8s; /* parte dopo il titolo */
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 @media (min-width: 768px) {
   .hero-title {
     font-size: 2.25rem; 
