@@ -1,5 +1,5 @@
 import "./ImageBlock.css";
-import blockImage from '../../assets/images/Image6.jpg'
+import blockImage from '../../assets/images/image6.jpg'
 
 export default function ImageBlock() {
   return (
