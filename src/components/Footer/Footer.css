@@ -23,7 +23,7 @@ footer {
 .footer-logo img.logo {
   width: 400px; 
   height: auto; 
-  max-width: 35%;  
+  max-width: 55%;  
   transition: none ;
   border-radius: 30%;
 }
@@ -48,11 +48,14 @@ footer {
 
 .social-icons a {
   color: #374151;
-  font-size: 40px; 
+  font-size: 45px; 
   transition: transform 0.3s, color 0.3s;
 }
 
 .social-icons a:hover {
   color: #8e5f89; 
   transform: scale(1.2);
+}
+.footer-copyright {
+  color: #29303c;
 }

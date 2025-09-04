@@ -1,7 +1,7 @@
 import './Hero.css';
 import heroImg from '../../assets/images/HeroImg.jpg';
 
-export default function Hero({ title = "I FIORI GIGANTI ", subtitle = "TRASFORMANO EVENTI ESCLUSIVI IN SCENOGRAFIE INDIMENTICABILI" }) {
+export default function Hero({ title = "FIORI DECORATIVI ", subtitle = "TRASFORMANO EVENTI ESCLUSIVI IN SCENOGRAFIE INDIMENTICABILI" }) {
 
     return (
         <section className="hero-section">
