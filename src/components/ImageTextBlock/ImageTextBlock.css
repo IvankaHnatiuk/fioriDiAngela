@@ -19,7 +19,7 @@
   justify-content: flex-start;
   text-align: right;  
   height: 100%;
-  color: #2c2c2c;
+  color: #374151;
 }
 
 .text-container h2 {
@@ -27,7 +27,7 @@
   margin-bottom: 1rem;
   font-weight: bold;
   letter-spacing: 0.5px;
-  color: #111;
+  color: #374151;
 }
 
 .text-container p {
@@ -35,7 +35,7 @@
   font-size: 1.25rem;   
   line-height: 1.8;       
   font-weight: 400;
-  color: #444;
+  color:#374151;
 }
 
 @media (min-width: 768px) {

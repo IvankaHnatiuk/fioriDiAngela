@@ -21,20 +21,17 @@ footer {
 }
 
 .footer-logo img.logo {
-  max-width: 140px;
-  margin-bottom: 10px;
-}
-
-.footer-logo p {
-  margin-top: 8px;
-  font-size: 0.95rem;
-  line-height: 1.4;
+  width: 400px; 
+  height: auto; 
+  max-width: 35%;  
+  transition: none ;
+  border-radius: 30%;
 }
 
 .footer-column h4 {
   font-size: 1.1rem;
   margin-bottom: 12px;
-  color: #111112;
+  color: #374151;
   text-align: center; 
 }
 
@@ -50,21 +47,12 @@ footer {
 }
 
 .social-icons a {
-  color: #0f61a4;
+  color: #374151;
   font-size: 40px; 
   transition: transform 0.3s, color 0.3s;
 }
 
 .social-icons a:hover {
-  color: #8e5f89; /* arancio elegante in hover */
+  color: #8e5f89; 
   transform: scale(1.2);
-}
-
-.footer-copyright {
-  text-align: center;
-  margin-top: 25px;
-  font-size: 14px;
-  color: #0d0d0d;
-  border-top: 1px solid #ddd;
-  padding-top: 12px;
 }

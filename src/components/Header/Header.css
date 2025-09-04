@@ -1,11 +1,9 @@
 .main-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 15px 2rem;
-  background-color: #f8f1e4; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  justify-content: space-around;
   position: relative;
+  padding: 1rem 0;
 }
 
 .logo-container {
@@ -14,14 +12,9 @@
 }
 
 .header-logo {
-  height: 60px;
-  border-radius: 12px; 
+  height: 90px;
+  border-radius: 30px; 
   transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.header-logo:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(211, 84, 0, 0.5); 
 }
 
 .header-nav {
@@ -31,13 +24,14 @@
 
 .header-nav a {
   text-decoration: none;
-  color: #141d25; 
-  font-weight: 500;
+  color: #374151;
+  font-weight: 600;
   transition: color 0.3s;
+  font-size: larger;
 }
 
 .header-nav a:hover {
-  color: #ce518a; 
+  color: #3d34c4; 
 }
 
 .mobile-menu-button {

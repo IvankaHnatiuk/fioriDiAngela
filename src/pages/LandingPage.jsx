@@ -5,7 +5,7 @@ import ImageBlock from '../components/ImageBlock/ImageBlock';
 import ImageTextBlock from '../components/ImageTextBlock/ImageTextBlock';
 import ContactForm from'../components/ContactForm/ContactForm';
 import Footer from '../components/Footer/Footer';
-import Galleria from '../components/Galleria/Galleria';
+import Gallery from '../components/Gallery/Gallery';
 
 const LandingPage = () => {
   return (
@@ -16,7 +16,7 @@ const LandingPage = () => {
         <TextBlock id="about"  />
         <ImageBlock />
         <ImageTextBlock id="gallery"  />
-        <Galleria />
+        <Gallery />
         <ContactForm id="contact" />
       </main>
       <Footer />

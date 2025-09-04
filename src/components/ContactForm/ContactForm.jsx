@@ -32,8 +32,8 @@ function ContactForm() {
 
   return (
     <section id="contact">
-      <h2>Contattaci</h2>
-      <p>Compila il modulo qui sotto e ti risponderemo al più presto.</p>
+      <h2>Contattami</h2>
+      <p>Compila il modulo qui sotto e ti rispondero al più presto.</p>
 
       <form onSubmit={handleSubmit}>
         <div className="form-row">

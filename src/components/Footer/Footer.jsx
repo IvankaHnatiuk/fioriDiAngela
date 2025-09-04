@@ -10,7 +10,6 @@ function Footer() {
         {/* Logo */}
         <div className="footer-column footer-logo">
           <img src={Logo} alt="Fiori di Angela Logo" className="logo" />
-          <p>Decorazioni floreali giganti per eventi, matrimoni e vetrine.</p>
         </div>
 
         {/* Contact */}

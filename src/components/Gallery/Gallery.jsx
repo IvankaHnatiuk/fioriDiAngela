@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import "./Galleria.css";
+import "./Gallery.css";
 
 import foto1 from "../../assets/images/foto1.jpg";
 import foto2 from "../../assets/images/foto2.jpg";
@@ -12,7 +12,7 @@ import foto8 from "../../assets/images/foto8.jpg";
 import foto9 from "../../assets/images/foto9.jpg";
 import foto10 from "../../assets/images/foto10.jpg";
 
-export default function Galleria() {
+export default function Gallery() {
   const immagini = [foto1, foto2, foto3, foto4, foto5, foto6, foto7, foto8, foto9, foto10];
   const scrollRef = useRef(null);
   const [showLeft, setShowLeft] = useState(false);

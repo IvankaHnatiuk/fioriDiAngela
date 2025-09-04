@@ -9,7 +9,7 @@ export default function Hero({ title = "I FIORI GIGANTI ", subtitle = "TRASFORMA
             <div className="hero-content container">
                 <h1 className="hero-title">{title}</h1>
                 <p className="hero-subtitle">{subtitle}</p>
-                <a href="#contact" className="btn btn-primary">Contattaci</a>
+                <a href="#contact" className="btn btn-primary">Contattami</a>
             </div>
         </section>
     );

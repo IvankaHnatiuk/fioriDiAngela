@@ -7,7 +7,7 @@ import Hero from './components/Hero/Hero';
 import TextBlock from './components/TextBlock/TextBlock';
 import ImageBlock from './components/ImageBlock/ImageBlock';
 import ImageTextBlock from './components/ImageTextBlock/ImageTextBlock';
-import Galleria from './components/Galleria/Galleria'
+import Gallery from './components/Gallery/Gallery'
 import ContactForm from './components/ContactForm/ContactForm';
 import Footer from './components/Footer/Footer';
 
@@ -19,7 +19,7 @@ function App() {
       <TextBlock />
       <ImageBlock />
       <ImageTextBlock />
-      <Galleria />
+      <Gallery />
       <ContactForm/>
       <Footer/>
     </>
