@@ -12,7 +12,7 @@ export default function Header() {
        <nav className={`header-nav ${isOpen ? "open" : ""}`}>
         <a href="#about"onClick={()=>setIsOpen(false)}>La mia storia</a>
         <a href="#product"onClick={()=>setIsOpen(false)}>Prodotto</a>
-        <a href="#gallery"onClick={()=>setIsOpen(false)}>Galleria</a>
+        <a href="#galleria"onClick={()=>setIsOpen(false)}>Galleria</a>
         <a href="#contact"onClick={()=>setIsOpen(false)}>Contatti</a>
       </nav>
        <button 
