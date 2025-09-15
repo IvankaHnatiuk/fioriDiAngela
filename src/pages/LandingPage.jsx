@@ -15,7 +15,7 @@ const LandingPage = () => {
         <Hero title="Titolo Principale" />
         <TextBlock id="about"  />
         <ImageBlock />
-        <ImageTextBlock id="gallery"  />
+        <ImageTextBlock/>
         <Gallery />
         <ContactForm id="contact" />
       </main>

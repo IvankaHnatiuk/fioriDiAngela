@@ -1,12 +1,11 @@
 #contact {
-  padding: 4rem 1.5rem;
   margin-top: 4rem;
+  margin-bottom: 4rem;
   border-radius: 1rem;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 #contact form {
-  max-width: 900px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -60,7 +59,7 @@ textarea {
 
 button[type="submit"] {
   align-self: flex-start;
-  background: linear-gradient(90deg, #e91e63, #ff9800);
+  background: linear-gradient(90deg, #3d916a, #404e3c);
   color: #fff;
   font-size: 1.1rem;
   font-weight: bold;
