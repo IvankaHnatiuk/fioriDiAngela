@@ -17,12 +17,6 @@
   gap: 1rem;
 }
 
-@media (max-width: 768px) {
-  .form-row {
-    flex-direction: column;
-  }
-}
-
 label {
   font-size: 1.5rem;
   font-weight: bold;
@@ -84,5 +78,10 @@ padding-bottom: 15px;
   #contact {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+}
+ @media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
   }
 }
